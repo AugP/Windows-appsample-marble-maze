@@ -457,20 +457,7 @@ void Audio::ReleaseResources()
 
 void Audio::Start()
 {
-    if (m_engineExperiencedCriticalError)
-    {
-        return;
-    }
 
-    HRESULT hr = m_musicSourceVoice->Start(0);
-
-    if SUCCEEDED(hr) {
-        m_isAudioStarted = true;
-    }
-    else
-    {
-        m_engineExperiencedCriticalError = true;
-    }
 }
 
 // This sample processes audio buffers during the render cycle of the application.
