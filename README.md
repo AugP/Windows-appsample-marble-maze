@@ -3,7 +3,7 @@
   samplefwlink: http://go.microsoft.com/fwlink/?LinkId=624011
 --->
 
-# DirectX marble maze game sample
+# Marble Maze - Visual Studio Tutorial
 
 This is a mini-app that shows how to build a basic 3D game using DirectX on the Universal Windows Platform (UWP). 
 It's a simple labyrinth game where the player is challenged to roll a marble through a maze of pitfalls using tilt, mouse, or gamepad controls.
